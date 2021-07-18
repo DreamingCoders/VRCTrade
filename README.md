@@ -1,2 +1,2 @@
 # BTrade
-Trade api wrapper for Bryckie
+Trade/Value api wrapper for Bryckie
