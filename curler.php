@@ -5,7 +5,7 @@
 // create a new cURL resource
 $ch = curl_init();
 // set URL and other appropriate options
-curl_setopt($ch, CURLOPT_URL, "http://www.bprewritten.net/api/foobar.php");
+curl_setopt($ch, CURLOPT_URL, "http://www.example.net/api/foobar.php");
 curl_setopt($ch, CURLOPT_HEADER, 0);
 // grab URL and pass it to the browser
 curl_exec($ch);
@@ -13,7 +13,7 @@ curl_exec($ch);
 curl_close($ch);
 */
 
-$get_data = callAPI('GET', 'https://bprewritten.net/api/foobar.php, false);
+$get_data = callAPI('GET', 'https://example.net/api/foobar.php, false);
 $response = json_decode($get_data, true);
 $errors = $response['response']['errors'];
 $data = $response['response']['data'][0];
