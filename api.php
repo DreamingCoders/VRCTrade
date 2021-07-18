@@ -8,7 +8,7 @@ $(document).ready(function(){
    $('#content').load("https://www.example.net/api/foobar.php");
    $('#api').load("https://www.example.net/api/foobar.php", { "players[]": [ "online" ] });
 });
-$.getJSON( "https://www.bprewritten.net/api/test.json", function( data ) {
+$.getJSON( "https://www.example.net/api/test.json", function( data ) {
   var items = [];
   $.each( data, function( key, val ) {
     items.push( "<li id='" + key + "'>" + val + "</li>" );
