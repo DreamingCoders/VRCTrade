@@ -1,2 +1,2 @@
-# BTrade
-Trade/Value api wrapper for Bryckie
+# VRC
+Trade/Value api wrapper for Vue Roblox Clone AKA VRC
